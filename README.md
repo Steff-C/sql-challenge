@@ -1,4 +1,4 @@
 # sql-challenge
 SQL Homework 09
 
-Files contain items such as Quick DBD export
+The File folder contains items such as Quick DBD export.
