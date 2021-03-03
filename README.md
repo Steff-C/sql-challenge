@@ -2,10 +2,10 @@
 SQL Homework
 
 MODELING
-  - Create a relational model database schema from Column headers and data types attained and observed in the homework CSV files.  
+  - CreateD a relational model database schema from Column headers and data types attained and observed in the homework CSV files.  
 
 DATA ENGINEERING
-  - Include all details and properties in schema; data types, primary keys, foreign keys, and other constraints.
+  - IncludeD all details and properties in schema; data types, primary keys, foreign keys, and other constraints.
   
     Constraints are part of a database schema definition.
       A constraint is usually associated with a table and is created with a CREATE CONSTRAINT or CREATE ASSERTION SQL statement.
@@ -20,7 +20,10 @@ DATA ENGINEERING
       - foreign key - value(s) in specified column(s) must reference an existing record in another table (via it's primary key or some other unique constraint)
       - check - an expression is specified, which must evaluate to true for constraint to be satisfied
   
-  - Import each CSV file into the corresponding SQL table 
+  - Imported each CSV file into the corresponding SQL table *in the same order that the tables were created and account for the headers when importing to avoid errors.
+
+DATA ANALYSIS
+  - complete steps 1-8
 
 ADDITIONAL FOLDERS:
   - File folder contains Quick DBD export.
