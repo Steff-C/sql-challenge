@@ -2,7 +2,7 @@
 SQL Homework
 
 MODELING
-  - CreateD a relational model database schema from Column headers and data types attained and observed in the homework CSV files.  
+  - Created a relational model database schema from Column headers and data types attained and observed in the homework CSV files.  
 
 DATA ENGINEERING
   - IncludeD all details and properties in schema; data types, primary keys, foreign keys, and other constraints.
@@ -43,7 +43,7 @@ DATA ANALYSIS
   I had some difficulty with capitalization.  in the future i will not use caps EVER again...
     - Fixed in pgAdmin
 
-Data Folder Contains:
+Files Folder Contains:
   - Diagram created in Quick DBD (https://www.quickdatabasediagrams.com/).  Exported visual "QuickDBD-sql-challenge (1).png" of diagram.
   - SQLSchemataTables.sql exported from Quicl DBD (https://www.quickdatabasediagrams.com/) and opened in pgAdmin Query tool (drag & dropped).
   - SQLQueries.sql file generated in query tool to run queiries of the required analysis steps 1-8.
