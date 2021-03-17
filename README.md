@@ -1,4 +1,4 @@
-# sql-challenge
+# SQL-Challenge
 SQL Homework
 
 MODELING
