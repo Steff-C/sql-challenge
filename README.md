@@ -5,7 +5,7 @@ MODELING
   - Created a relational model database schema from Column headers and data types attained and observed in the homework CSV files.  
 
 DATA ENGINEERING
-  - IncludeD all details and properties in schema; data types, primary keys, foreign keys, and other constraints.
+  - Included all details and properties in schema; data types, primary keys, foreign keys, and other constraints.
   
     Constraints are part of a database schema definition.
       A constraint is usually associated with a table and is created with a CREATE CONSTRAINT or CREATE ASSERTION SQL statement.
@@ -40,7 +40,7 @@ DATA ANALYSIS
 
       8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
-  I had some difficulty with capitalization.  in the future i will not use caps EVER again...
+  I had some difficulty with capitalization.  In the future I will not use caps unless required...
     - Fixed in pgAdmin
 
 Files Folder Contains:
