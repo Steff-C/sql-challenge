@@ -1,4 +1,4 @@
--- ### Data Analysis
+-- ### Data Analysis Part of assignment ##
 
 -- 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 SELECT employees.emp_no, employees.last_name, employees.first_name, employees.sex, salaries.salary
@@ -42,7 +42,7 @@ WHERE departments.dept_no = 'd007';
 
 
 -- 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
-		-- SELECT * FROM departments; query showed Development dept_no is doo5 add to previous query
+		-- SELECT * FROM departments; query showed Development dept_no is doo5 add to previous queryfrom question 6
 SELECT employees.emp_no, employees.last_name, employees.first_name, departments.dept_name
 FROM employees
 JOIN dept_emp ON employees.emp_no = dept_emp.emp_no
@@ -51,3 +51,7 @@ WHERE departments.dept_no = 'd007' or  departments.dept_no = 'd005';
 
 
 -- 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+SELECT last_name, COUNT(last_name) AS "frequency count"
+FROM employees
+GROUP BY last_name
+ORDER BY "frequency count" DESC;
